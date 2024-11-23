@@ -1,0 +1,8 @@
+node_modules/
+.deploy_git/
+public/
+script/
+*.log
+db.json
+yarn.lock
+package-lock.json
