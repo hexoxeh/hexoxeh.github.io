@@ -818,7 +818,7 @@ valine:
   appKey: ZxGFsDJudYATonIamLafbPgY
   path: window.location.pathname
   placeholder:
-  avatar: 'retro'
+  avatar: 'identicon'
   meta: ['nick', 'mail', 'link']
   requiredFields: []
   pageSize: 10
