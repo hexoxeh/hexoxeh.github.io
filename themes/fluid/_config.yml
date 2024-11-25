@@ -826,7 +826,7 @@ valine:
   lang: 'zh-CN'
   highlight: false
   recordIP: false
-  serverURLs: 'https://cravatar.cn'
+  serverURLs: ''
   emojiCDN:
   emojiMaps:
   enableQQ: false
