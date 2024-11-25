@@ -819,8 +819,7 @@ valine:
   path: window.location.pathname
   placeholder:
   avatar: identicon
-  avatarForce: true
-  avatarCDN: https://cravatar.cn
+  avatar_cdn: https://cravatar.cn
   meta: ['nick', 'mail', 'link']
   requiredFields: []
   pageSize: 10
