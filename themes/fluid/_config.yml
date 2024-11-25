@@ -752,7 +752,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: gitalk
+    type: disqus
 
 
 #---------------------------
@@ -784,8 +784,8 @@ disqus:
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
-  disqusjs: false
-  apikey:
+  disqusjs: true
+  apikey: P8Mw4iL5YDI6znnmUvxu82pYWcrwisY7KiXYgM6Squvb02aMQAqMrD2AyhpQ2awO
 
 # Gitalk
 # 基于 GitHub Issues
@@ -793,7 +793,7 @@ disqus:
 # See: https://github.com/gitalk/gitalk#options
 gitalk:
   clientID: Ov23liqtET3kzyakj9UJ
-  clientSecret: 3ab00ef84a6b44c791efa68ed6f48a361b36d48e
+  clientSecret: 0236c1b52c921ab59cc4ee5a62612023e001a553
   repo: https://github.com/hexoxeh/hexoxeh.github.io
   owner: hexoxeh
   admin: ['hexoxeh']
@@ -801,7 +801,7 @@ gitalk:
   labels: ['Gitalk']
   perPage: 10
   pagerDirection: last
-  distractionFreeMode: false
+  distractionFreeMode: true
   createIssueManually: true
   # 默认 proxy 可能会失效，解决方法请见下方链接
   # The default proxy may be invalid, refer to the links for solutions
